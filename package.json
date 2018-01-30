@@ -1,0 +1,31 @@
+{
+  "name": "twiml-phonebuzz-p3",
+  "version": "1.0.0",
+  "description": "Fizz Buzz game by phone call with Twilio phase 3",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marvincang/twiml-phonebuzz-p3.git"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express",
+    "twilio"
+  ],
+  "author": "Marvin Cangcianno",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marvincang/twiml-phonebuzz-p3/issues"
+  },
+  "homepage": "https://github.com/marvincang/twiml-phonebuzz-p3#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "delayed": "^1.0.1",
+    "express": "^4.16.2",
+    "twilio": "^3.11.0"
+  }
+}

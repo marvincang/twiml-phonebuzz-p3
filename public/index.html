@@ -1,0 +1,18 @@
+<html>
+
+<title>TwiML PhoneBuzz</title>
+<body>
+  <form action="/" method="post">
+    <label for="phone">Enter a phone number to play PhoneBuzz: </label>
+    <input id="phone" type="text" name="phonenumber" pattern="^\+1\d{10}$" placeholder="+1XXXXXXXXXX">
+    <label for="phone">, with a delay of: </label>
+    <input id="delay" type="number" name="delaynum" value="0" min="0">
+    <select name="timer">
+      <option value="second">second(s)</option>
+      <option value="minute">minute(s)</option>
+    </select>
+    <input type="submit" value="Submit">
+  </form>
+</body>
+
+</html>
